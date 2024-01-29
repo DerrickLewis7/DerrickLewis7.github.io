@@ -17,11 +17,13 @@
 }
 
 #left-side {
-    width: 400px;
-    border: 2px solid red;
+    width: 430px;
+    border: 2px solid lime;
+    display:inline-block;
 }
 h1 {
     color: blue;
+    border: 2px solid lime;
 }
 h4 {
     background-color: blue;
@@ -32,18 +34,79 @@ h4 {
 }
 #id-and-expiration {
     display: inline-block;
-    width: 400px;
-    border: 2px solid red;
+    width: 100%;
+    border: 2px solid lime;
 }
 #id-and-expiration div {
     display: inline-block;
-    padding-right: 15px;
+    padding-right: 24px;
 }
 #id-and-expiration span {
-    color:crimson;
+    color:red;
 }
 #address {
-    padding-top: 10px;
+    padding-top: 8px;
+    border: 2px solid lime;
+    font-weight: bold;
 }
 
+#personal-info {
+    border: 2px solid lime;
+}
+#small-pic {
+    display: inline-block;
+    border: 2px solid lime;
+    width:19%;
+    height:19%;
+}
+#small-pic img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+#data-fields {
+    display: inline-block;
+}
+#data-left {
+    border: 2px solid lime;
+    display: inline-block;
+    width: 164px
+}
+#data-right {
+    border: 2px solid lime;
+    display: inline-block;
+    width: 165px;
+}
+#data-left span, #data-right span {
+    color: red;
+}
+#signature {
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bolder;
+}
 
+#right-side {
+    display: inline-block;
+    border: 2px solid lime;
+    width: 215px;
+    height: 100%;
+}
+#right-side img {
+    width: 100%;
+    height: 100%;
+}
+#donor-and-real-id {
+    text-align: center
+}
+#donor, #real-id {
+    display: inline-block;
+}
+
+/* 
+Just going to apolagize for the messy code here.
+It was a struuuuggle trying to get things to fit the way it looks in the
+example. I know it wasn't required to try to get things pixel perfect I just
+wanted to try. 
+*/
