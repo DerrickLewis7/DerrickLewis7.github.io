@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 /*
     NOTE TO STUDENTS: 
 
@@ -12,30 +13,35 @@
 #license {
     border: 3px solid black;
     border-radius: 15px;
-    padding: 15px;
+    padding: 24px;
     width: 700px;
+    background: linear-gradient(55deg, yellow, gold, yellowgreen);
+    box-shadow: 8px 8px 6px #0006;
 }
 
 #left-side {
-    width: 430px;
-    border: 2px solid lime;
+    width: 65%;
     display:inline-block;
 }
 h1 {
-    color: blue;
-    border: 2px solid lime;
+    color: navy;
+    font-size: 60px;
+    margin: 0px;
 }
 h4 {
-    background-color: blue;
+    background-color: navy;
     color: white;
     text-align: center;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 24px;
+    margin: 0px;
 }
 #id-and-expiration {
     display: inline-block;
-    width: 100%;
-    border: 2px solid lime;
+    color:navy;
+    width: 96%;
+    margin: 12px;
 }
 #id-and-expiration div {
     display: inline-block;
@@ -46,62 +52,66 @@ h4 {
 }
 #address {
     padding-top: 8px;
-    border: 2px solid lime;
     font-weight: bold;
+    margin: 10px;
 }
 
-#personal-info {
-    border: 2px solid lime;
-}
 #small-pic {
     display: inline-block;
-    border: 2px solid lime;
-    width:19%;
-    height:19%;
+    width: 90px;
 }
 #small-pic img {
     width: 100%;
     height: 100%;
     display: inline-block;
+    opacity: 70%;
 }
 #data-fields {
     display: inline-block;
 }
 #data-left {
-    border: 2px solid lime;
     display: inline-block;
-    width: 164px
+    margin-right: 24px;
 }
 #data-right {
-    border: 2px solid lime;
     display: inline-block;
-    width: 165px;
+}
+#data-right, #data-left {
+    margin: 8px;
 }
 #data-left span, #data-right span {
     color: red;
 }
 #signature {
     text-align: center;
-    font-family: cursive;
-    font-style: italic;
-    font-weight: bolder;
+    font-family: 'Ms Madi', cursive;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #right-side {
     display: inline-block;
-    border: 2px solid lime;
-    width: 215px;
-    height: 100%;
+    width: 34%;
 }
 #right-side img {
     width: 100%;
-    height: 100%;
 }
 #donor-and-real-id {
-    text-align: center
+    text-align: center;
 }
 #donor, #real-id {
     display: inline-block;
+}
+#donor {
+    color: red;
+    padding-right: 20px;
+}
+#real-id {
+    background-color: gold;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 50%;
+    color:white;
 }
 
 /* 
