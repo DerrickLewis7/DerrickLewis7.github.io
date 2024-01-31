@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 700px;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.light-column {
+    background-color: goldenrod;
+    padding: 24px;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#italic {
+    font-style: italic;
+}
+
+.dark-column {
+    background-color: darkgoldenrod;
+    padding: 24px;
+    color: white
+}
+
+.single-column h1 {
+    text-align: center;
+}
