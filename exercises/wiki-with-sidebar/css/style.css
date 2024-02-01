@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-columns {
+    display: flex;
+}
+#sidebar-content {
+    background-color:blanchedalmond;
+    width: 210px;
+    padding: 24px;
+}
+#sidebar-content ul {
+    padding: 24px 0px;
+    list-style-type: none;
+}
+#sidebar-content ul a {
+    text-decoration: none;
+}
+#sidebar-content ul li span {
+    text-indent: 4px;
+}
+#sidebar-content ul li {
+    padding: 4px 0px;
+}
+#main-content {
+    background-color:#99c9ca;
+    flex: 1;
+    padding: 40px;
+}
+#main-content h1 {
+    font-style: italic;
+}
+
+/* Can't remember how to indent for the subheadings within the sidebar sadly. */
