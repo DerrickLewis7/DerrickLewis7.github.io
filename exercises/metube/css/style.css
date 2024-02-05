@@ -20,6 +20,7 @@ body {
 #header {
     padding: 0px 36px;
     grid-area: header;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 #header a {
     text-decoration: none;
@@ -43,6 +44,7 @@ body {
     padding: 12px 0px;
     margin: 0px;
     border-bottom: 1px solid antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #sidebar ul a {
     text-decoration: none;
@@ -83,6 +85,7 @@ body {
     text-decoration: none;
     color: teal;
     display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .metube-item h4 a:hover {
     text-decoration: underline;
@@ -94,4 +97,29 @@ body {
 
 .metube-item .channel {
     margin-bottom: 4px;
+}
+
+#m1 .thumbnail {
+    background-image: url(../images/youtube-image.png);
+    background-size: cover;
+}
+#m2 .thumbnail {
+    background-image: url(../images/youtube-image2.png);
+    background-size: cover;
+}
+#m3 .thumbnail {
+    background-image: url(../images/youtube-image3.png);
+    background-size: cover;
+}
+#m4 .thumbnail {
+    background-image: url(../images/youtube-image4.png);
+    background-size: cover;
+}
+#m5 .thumbnail {
+    background-image: url(../images/youtube-image5.png);
+    background-size: cover;
+}
+#m6 .thumbnail {
+    background-image: url(../images/youtube-image6.png);
+    background-size: cover;
 }
