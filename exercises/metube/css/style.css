@@ -46,6 +46,30 @@ body {
     border-bottom: 1px solid antiquewhite;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.fa-house {
+    padding-right: 14px;
+}
+.fa-film {
+    padding-right: 14px;
+}
+.fa-ticket {
+    padding-right: 14px;
+}
+.fa-bookmark {
+    padding-right: 14px;
+}
+.fa-folder {
+    padding-right: 14px;
+}
+.fa-video {
+    padding-right: 14px;
+}
+.fa-clapperboard {
+    padding-right: 14px;
+}
+.fa-clock {
+    padding-right: 14px;
+}
 #sidebar ul a {
     text-decoration: none;
     color:teal;
