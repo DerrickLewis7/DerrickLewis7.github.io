@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/koala.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hero-1 h2 {
+    font-size: 5vw;
+    margin: 0px 5vw 5vh 0px;
+    color:#333;
+}
+#hero-1 h3 {
+    font-size: 2.5vw;
+    margin: 0px 5vw 0px 0px;
+    color: #333;
+}
+#hero-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+    border-radius: 16px;
+    transition: background-color 0.5s;
+}
+#hero-1 a:hover {
+    background-color: #333333c1;
+}
+
+
+
+#hero-2 {
+    background-image: url(../images/lizards.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: left;
+    position: relative;
+}
+
+#hero-2 .hero-content {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+#hero-2 h2 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+    color: white;
+}
+
+#hero-2 h3 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+}
+#hero-2 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: white;
+}
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+    border-radius: 16px;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+#hero-2 a:hover {
+    background-color: rgba(255, 255, 255, 0.579);
+}
+
+#hero-3 {
+    background-image: url(../images/lions.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-3 .hero-content {
+    color: white;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+#hero-3 h2 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+}
+#hero-3 h4 {
+    font-size: 2.5vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-3 a {
+    font-size: 2vw;
+    display: inline-block;
+    background-color: white;
+    border-radius: 16px;
+    color: #333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+    transition: background-color 0.5s;
+}
+#hero-3 a:hover {
+    background-color: rgba(255, 255, 255, 0.765);
+}
