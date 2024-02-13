@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(#04042a,black);
+}
+
+#layout {
+    width: 90vw;
+    min-width: 500px;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+#layout h2 {
+    text-align: center;
+    margin: 48px 0px;
+    color: blue;
+}
+
+#hero-1 {
+    background-image: url(../images/fish-close-up.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content:end;
+    flex-direction: column;
+    padding: 24px;
+}
+#hero-1 h1 {
+    color: white;
+    font-size: 48px;
+}
+#hero-1 h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-bottom: 24px;
+}
+
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover
+}
+
+.non-uniform-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 150px;
+    padding: 24px;
+    border: 8px ridge blue;
+    gap: 12px;
+}
+.non-uniform-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.non-uniform-gallery p {
+    color: white;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
