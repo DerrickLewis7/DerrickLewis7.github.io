@@ -1,24 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
-    font-family: "Merriweather", serif;
+    font-family: "Tajawal", sans-serif;
     background: black;
     color: white;
 }
 p, a {
     font-size: 1.125rem;
-}
-#layout {
-    width: 90vw;
-    max-width: 1200px;
-    margin: 50px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 100px;
 }
 h2 {
     text-align: center;
@@ -26,64 +17,45 @@ h2 {
     color: deeppink;
     font-size: 40px;
 }
+h1, h2 {
+    font-family: "Merriweather", serif;
+}
+#header {
+    padding: 24px 50px;
+}
+#header a img {
+    width: 40px;
+}
 
 #hero-1 {
-    background-image: url(../images/space.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+    background:
+        linear-gradient(to top, #fff0, #12121200),
+        linear-gradient(to bottom, #fff0, #121212),
+        url(../images/space-4.png)
+    ;
+    margin: 0px 0px;
+    background-position: top;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 #hero-1 h1 {
-    color: white;
-    font-size: 48px;
+    font-size: 3.5rem;
 }
 #hero-1 h3 {
     color: white;
-    font-size: 30px;
+    font-size: 2.25rem;
 }
 
-.cards {
-    background-color:indigo;
-    width: 100%;
-    padding: 0px 14px;
-    text-align: center;
-    color: white;
-    display: flex;
-    align-items: center;
-    box-shadow: 5px 5px 10px #fea8d6ab;
-    transition: transform 0.5s;
-}
-
-.cards:hover {
-    transform: translateX(-20px);
-    transform: translateY(-20px);
-}
-.cards .homepage-button:hover {
-    background-color: #ff14914f;
-}
-.homepage-button {
-    background-color: deeppink;
-    padding: 12px;
-    transition: background-color 0.5s;
-    border-radius: 6px;
-    margin: 24px 0px;
-}
-.cards a {
-    text-decoration: none;
-    color: white;
-}
-
-.vertical-masonry-gallery {
-    columns: 3 auto;
-}
-
-.vertical-masonry-gallery img {
-    width: 100%;
-    margin-bottom: 12px;
+#layout {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
 }
 #layout-2 {
     width: 90vw;
@@ -93,4 +65,46 @@ h2 {
 }
 #layout-2 h2 {
     margin: 50px;
+}
+
+.cards {
+    background-color:indigo;
+    border-radius: 4px;
+    width: 100%;
+    padding: 0px 14px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    box-shadow: 16px 16px 6px #fea8d63a;
+    transition: transform 0.5s;
+}
+.cards:hover {
+    transform: translateX(-20px);
+    transform: translateY(-20px);
+}
+.cards .homepage-button:hover {
+    background-color: #ff14914f;
+}
+.homepage-button {
+    background-color: deeppink;
+    padding: 12px 24px;
+    transition: background-color 0.5s;
+    border-radius: 6px;
+    margin: 24px 0px;
+    display: inline-block;
+}
+.cards a {
+    text-decoration: none;
+    color: white;
+}
+
+.vertical-masonry-gallery {
+    columns: 3 auto;
+}
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 12px;
 }
