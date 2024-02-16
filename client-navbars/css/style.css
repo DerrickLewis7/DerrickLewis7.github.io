@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: cursive;
+    font-weight: 900;
+    margin: 0px;
+}
+#hallo-background {
+    background-color: black;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 24px;
+}
+.navbar #space-pls {
+    margin-right: auto;
+}
+.navbar .cta-button {
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 100px;
+    text-align: center;
+    margin-right: 24px;
+}
+#navbar-1 {
+    background-color: rgb(232, 195, 146);
+}
+#navbar-1 a {
+    color: rgb(126, 33, 33);
+}
+#navbar-2 {
+    background-color: rgb(255, 255, 158);
+    font-family: 
+        'Lucida Sans', 
+        'Lucida Sans Regular', 
+        'Lucida Grande', 
+        'Lucida Sans Unicode', 
+        Geneva, 
+        Verdana, 
+        sans-serif;
+}
+#navbar-2 a {
+    color:chocolate;
+}
+#navbar-2 .cta-button {
+    color:rgb(255, 255, 158);
+    background-color: chocolate;
+}
+#navbar-3 {
+    background-color: darkorange;
+}
+#navbar-3 a {
+    color: blueviolet;
+}
+#navbar-3 .cta-button {
+    background-color:black;
+}
+#header {
+    background-color: chocolate;
+    text-align: center;
+    padding: 2px;
+}
+#header a {
+    text-decoration: none;
+    color: gold;
+}
+#bottom-nav {
+    background-color:orange;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px;
+}
+#bottom-nav a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+#layout {
+    width: 800px;
+    margin: 48px;
+    font-size: 24px;
+    height: 200vh;
+}
