@@ -235,6 +235,7 @@ a {
         font-size: 35px;
     }
    
+    
     .three-cards {
         display: flex;
         flex-direction: column;
@@ -242,14 +243,24 @@ a {
     .three-cards a {
         display: block;
     }
+    .three-cards .card a {
+        margin-top: 30px;
+    }
+    .three-cards p {
+        margin-top: 30px;
+    }
 
     .two-cards {
         display: flex;
         flex-direction: column;
+        margin: 0px;
     }
     .two-cards a {
         display: flex;
         justify-content: center;
+    }
+    .two-cards .card {
+        margin: 12px;
     }
 
 
