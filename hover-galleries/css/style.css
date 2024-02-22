@@ -13,15 +13,16 @@ body {
     padding: 6px;
     margin: 12px;
 }
+.card {
+    margin: 24px;
+    text-align: center;
+}
+
 .cards1 {
     border: 3px solid black;
     border-radius: 12px;
     background-color: black;
     color: white;
-}
-.card {
-    margin: 24px;
-    text-align: center;
 }
 .cards1 a {
     color: white;
@@ -41,7 +42,8 @@ body {
     transition:
         opacity 0.5s,
         visibility 0.5s,
-        transform 0.5s;
+        transform 0.5s
+    ;
 }
 .cards1:hover .card-content {
     opacity: 1;
@@ -85,10 +87,52 @@ body {
     box-shadow: 6px 6px 6px #0003;
     transform: translateY(-4px);
 }
-
 .cards3 {
     transition:
         background-color 0.5s,
         box-shadow 0.5s,
-        transform 0.5s;
+        transform 0.5s
+    ;
 }
+
+#gal1-card2 {
+    background-color:darkslategrey;
+}
+#gal1-card3 {
+    background-color:dimgray;
+}
+#gal1-card4 {
+    background-color:indigo;
+}
+
+#gal2-card2 {
+    background-color:chartreuse;
+}
+#gal2-card3 {
+    background-color:aqua;
+}
+#gal2-card4 {
+    background-color:crimson;
+}
+
+#gal3-card2 {
+    background-color:mediumvioletred;
+}
+#gal3-card3 {
+    background-color:darkblue;
+}
+#gal3-card4 {
+    background-color:saddlebrown;
+}
+
+#gal3-card2:hover {
+    background-color:#860f5a;
+}
+#gal3-card3:hover {
+    background-color:#15155b;
+}
+#gal3-card4:hover {
+    background-color:#65320e;
+}
+/* Don't know why the spacing for the heading in gallery 2 is different compared
+to the other 2 galleries. */
