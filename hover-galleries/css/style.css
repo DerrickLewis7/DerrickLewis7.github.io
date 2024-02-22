@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#gal1, #gal2, #gal3 {
+    display: flex;
+}
+.card-content {
+    padding: 6px;
+    margin: 12px;
+}
+.cards1 {
+    border: 3px solid black;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+}
+.card {
+    margin: 24px;
+    text-align: center;
+}
+.cards1 a {
+    color: white;
+    border: 3px solid white;
+}
+.card a {
+    text-decoration: none;
+    display: block;
+    border-radius: 12px;
+    margin: 4px;
+    padding: 12px;
+}
+.cards1 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+.cards1:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+.cards2 {
+    background-color: coral;
+    border-radius: 16px;
+    color: darkblue;
+}
+.cards2 a {
+    color: darkblue;
+    border: 3px solid darkblue;
+}
+.cards2 a {
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+.cards2:hover a {
+    background-color:darkturquoise;
+    box-shadow: 4px 4px 4px #000;
+    transform: translateY(-4px);
+}
+
+.cards3 {
+    background-color:darkmagenta;
+    border: 6px solid black;
+    color: chartreuse;
+}
+.cards3 a {
+    color: chartreuse;
+    border: 3px solid forestgreen;
+}
+.cards3:hover {
+    background-color:#540e77;
+    box-shadow: 6px 6px 6px #0003;
+    transform: translateY(-4px);
+}
+
+.cards3 {
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
