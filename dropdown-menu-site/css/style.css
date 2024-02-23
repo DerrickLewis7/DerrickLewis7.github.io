@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: lemonchiffon;
+}
+#navbar {
+    background-color:chocolate;
+    display: flex;
+    align-items: center;
+}
+#navbar a {
+    display: inline-block;
+    padding: 24px;
+    color: white;
+    text-decoration: none;
+}
+#navbar a:hover {
+    background-color:darkturquoise; 
+}
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 13px 24px 12px;
+}
+.dropdown-container {
+    position: relative;
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.5s,
+        visibility 0.5s;
+}
+.dropdown-menu a {
+    background-color: chocolate;
+    width: 100%;
+    min-width: 200px;
+}
+#navbar .dropdown-menu a:hover {
+    background-color: darkturquoise;
+}
+#hero {
+    background-image: url(../images/dog-hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#hero h1 {
+    margin-top: 75px;
+    color: orange;
+    font-size: 48px;
+}
+#main-content {
+    width: 50%;
+    min-width: 400px;
+    max-width: 1200px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#adopt-me-content img {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    border: 4px solid chocolate;
+    border-radius: 40%;
+    margin: 24px 0px;
+    box-shadow: 4px 4px 12px #0007;
+}
+#rex {
+    background-color: darkturquoise;
+    border-radius: 30px;
+}
