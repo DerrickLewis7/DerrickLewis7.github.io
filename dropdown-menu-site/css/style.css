@@ -98,6 +98,7 @@ body {
 @media screen and (max-width: 700px) and (min-width: 400px) {
     #navbar {
         flex-direction: column;
+        justify-content: center;
     }
     #navbar #logo {
         text-align: center;
@@ -105,6 +106,10 @@ body {
     }
     #navbar a {
         border: 2px solid rgb(181, 90, 25);
+        width: 100%;
+        text-align: center;
+    }
+    .dropdown-container {
         width: 100%;
     }
 }
