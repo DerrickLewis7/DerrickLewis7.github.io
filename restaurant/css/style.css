@@ -134,15 +134,38 @@ span {
     color: goldenrod;
     text-decoration: underline;
 }
-#menu-sbs
+#single-col h1 {
+    text-align: center;
+    margin: 100px 0px;
+}
+#menu-sbs {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    margin: 0px 0px;
+}
 #menu-content {
     padding: 0px 12px;
+    border: 3px solid goldenrod;
+    margin: 100px 0px;
+}
+#menu-content h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+.menu-body-content {
+    flex: 2;
+    margin: 0px 200px;
 }
 .menu-img {
-    width: 150px;
+    flex: 1;
+    margin: 60px;
 }
 .menu-img img {
-    width: 100%
+    width: 100%;
+}
+.pricing {
+    flex: 1;
 }
 
 
