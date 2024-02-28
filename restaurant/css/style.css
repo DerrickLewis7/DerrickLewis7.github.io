@@ -5,7 +5,12 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-
+h1 {
+    font-size: 40px;
+}
+span {
+    color: goldenrod;
+}
 #navbar {
     background-color: black;
     display: flex;
@@ -16,6 +21,14 @@ body {
     padding: 16px;
     color: white;
     text-decoration: none;
+    transition: 
+        color 0.5s,
+        text-decoration 0.5s
+    ;
+}
+#navbar a:hover {
+    color: goldenrod;
+    text-decoration: underline;
 }
 #navbar img {
     width: 85px;
@@ -24,37 +37,114 @@ body {
     margin-left: 16px;
     margin-right: auto;
 }
-#idk {
+#nav-links-1 {
     margin-right: 16px;
+}
+#contact-us {
+    border: 2px solid goldenrod;
+    border-radius: 4px;
+    margin-right: 24px;
+}
+#single-col {
+    width: 75%;
+    min-width: 400px;
+    max-width: 1500px;
+    margin: 0px auto; 
+}
+#sbs {
+    margin: 100px 0px;
 }
 .side-by-side {
     display: flex;
     align-items: center;
     padding: 24px;
-    margin: 60px 0px;
-}
-.body-content {
-    margin: 0px 40px;
-}
-.image-container {
-    width: 1100px;
-    margin: 0px 40px;
+    margin: 90px 0px;
 }
 .side-by-side img {
     width: 100%;
 }
+.body-content {
+    margin: 0px 40px;
+}
+#image-container-1 {
+    width: 800px;
+    margin: 0px 40px;
+}
+#image-container-2 {
+    width: 1100px;
+    margin: 0px 40px;
+}
 #hero {
     margin: 50px;
+}
+#location-content {
+    text-align: center;
+    margin: 100px 0px; 
+}
+#loc-img-cont {
+    width: 800px;
+}
+#location-content img {
+    width: 70%;
+    margin: 24px;
+}
+#location-content h3 {
+    padding: 30px;
+    margin: 24px 0px;
+    font-size: 22px;
+    border-right: 1px solid goldenrod;
+}
+#location-content h3:last-child {
+    border-right: none;
+}
+#location-content-2 {
+    display: flex;
+    justify-content: center;
 }
 .body-content a {
     display: inline-block;
     text-decoration: none;
-    color: gold;
+    color: goldenrod;
     background-color: black;
     padding: 14px;
     border-radius: 16px;
     margin: 24px 0px;
 }
+#footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 24px;
+}
+#foot-links {
+    display: flex;
+    justify-content: center;
+    margin: 55px 10px;
+}
+#foot-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 40px;
+    transition:
+        color 0.5s,
+        text-decoration 0.5s
+    ;
+}
+#foot-links a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+#menu-sbs
+#menu-content {
+    padding: 0px 12px;
+}
+.menu-img {
+    width: 150px;
+}
+.menu-img img {
+    width: 100%
+}
+
 
 /* #hero {
     background: 
