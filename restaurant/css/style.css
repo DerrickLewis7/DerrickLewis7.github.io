@@ -171,6 +171,7 @@ span {
     margin: 100px 0px;
     width: 100%;
     background-color: black;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.615);
 }
 #menu-content h2 {
     text-align: center;
