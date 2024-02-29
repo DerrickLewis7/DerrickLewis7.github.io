@@ -192,6 +192,18 @@ span {
     flex: 1;
 }
 
+@media screen and (max-width: 750px) and (min-width: 400px) {
+    #navbar {
+        flex-direction: column;
+    }
+    #navbar a {
+        margin: 24px;
+    }
+    #menu-sbs {
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
 /* #hero {
     background: 
