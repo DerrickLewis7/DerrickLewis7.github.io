@@ -109,6 +109,22 @@ span {
     padding: 14px;
     border-radius: 16px;
     margin: 24px 0px;
+    transition: 
+        background-color 0.5s
+    ;
+}
+.body-content a:hover {
+    background-color: #0000009a;
+}
+#body-cont-2 a {
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    transition: 
+        background-color 0.5s
+    ;
+}
+#body-cont-2 a:hover {
+    background-color: #0000009e;
 }
 #footer {
     background-color: black;
@@ -142,24 +158,31 @@ span {
     display: flex;
     align-items: center;
     padding: 24px;
-    margin: 0px 0px;
+    margin: 24px 0px;
+    color: white;
+    border-bottom: 3px dotted goldenrod;
+}
+#menu-sbs:last-child {
+    border-bottom: none;
 }
 #menu-content {
     padding: 0px 12px;
-    border: 3px solid goldenrod;
+    border: 5px outset goldenrod;
     margin: 100px 0px;
+    width: 100%;
+    background-color: black;
 }
 #menu-content h2 {
     text-align: center;
-    margin-top: 50px;
+    margin: 60px 0px;
+    color: white;
 }
 .menu-body-content {
     flex: 2;
-    margin: 0px 200px;
+    margin: 0px 75px;
 }
 .menu-img {
     flex: 1;
-    margin: 60px;
 }
 .menu-img img {
     width: 100%;
