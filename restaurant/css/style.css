@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'replacement';
+    src: url(../fonts/Bodoni\ 72\ OS.ttc);
+}
 * {
     box-sizing: border-box;
 }
@@ -6,21 +10,40 @@ body {
     font-family: sans-serif;
 }
 h1 {
-    font-size: 40px;
+    font-size: 45px;
+    font-family: 'replacement', serif;
+    font: 900;
+}
+h2 {
+    font-family: 'replacement', serif;
+    font-size: 32px;
+}
+h3 {
+    font-family: 'replacement', serif;
+}
+a {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'replacement', serif;
+    font-style: italic;
 }
 span {
     color: goldenrod;
+    font-weight: bolder;
 }
 #navbar {
-    background-color: black;
+    background-color: #000000d5;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0px;
 }
 #navbar a {
     padding: 16px;
     color: white;
     text-decoration: none;
+    display: inline-block;
     transition: 
         color 0.5s,
         text-decoration 0.5s
@@ -35,30 +58,37 @@ span {
 }
 #navbar #logo {
     margin-left: 16px;
-    margin-right: auto;
 }
 #nav-links-1 {
     margin-right: 16px;
 }
 #contact-us {
     border: 2px solid goldenrod;
-    border-radius: 4px;
+    border-radius: 16px;
     margin-right: 24px;
 }
 #single-col {
     width: 75%;
-    min-width: 400px;
-    max-width: 1500px;
-    margin: 0px auto; 
+    margin: 0px auto;
+}
+#single-col h1 {
+    margin: 0px 0px;
+}
+#single-col h2 {
+    margin: 35px 0px;
 }
 #sbs {
-    margin: 100px 0px;
+    margin: 30px 0px 150px 0px;
+    border-top-left-radius: 20px;
+    border-top: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
+    border-bottom-right-radius: 20px;
+    padding: 20px 0px;
 }
 .side-by-side {
     display: flex;
     align-items: center;
-    padding: 24px;
-    margin: 90px 0px;
+    margin: 24px 0px;
 }
 .side-by-side img {
     width: 100%;
@@ -66,33 +96,62 @@ span {
 .body-content {
     margin: 0px 40px;
 }
+.body-content a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: goldenrod;
+    padding: 14px;
+    border: 2px solid black;
+    border-radius: 16px;
+    margin: 24px 0px;
+    box-shadow: 4px 4px 7px #0006;
+    transition: 
+        background-color 0.5s
+    ;
+}
+.body-content a:hover {
+    background-color: #daa5207d;
+}
+#body-cont-2 {
+    text-align: start;
+}
+#body-cont-2 a {
+    background-color: black;
+    border: 2px solid goldenrod;
+    color: white;
+    transition: 
+        background-color 0.5s
+    ;
+}
+#body-cont-2 a:hover {
+    background-color: #0000009e;
+}
 #image-container-1 {
-    width: 800px;
+    width: 80%;
     margin: 0px 40px;
 }
 #image-container-2 {
-    width: 1100px;
+    width: 80%;
     margin: 0px 40px;
-}
-#hero {
-    margin: 50px;
 }
 #location-content {
     text-align: center;
-    margin: 100px 0px; 
-}
-#loc-img-cont {
-    width: 800px;
+    margin: 150px 0px;
 }
 #location-content img {
-    width: 70%;
+    width: 85%;
     margin: 24px;
+    background-color: goldenrod;
+    padding: 12px;
+    box-shadow: 0px 0px 12px #0009;
 }
 #location-content h3 {
     padding: 30px;
     margin: 24px 0px;
     font-size: 22px;
-    border-right: 1px solid goldenrod;
+    font-family: sans-serif;
+    border-right: 2px solid goldenrod;
 }
 #location-content h3:last-child {
     border-right: none;
@@ -101,36 +160,33 @@ span {
     display: flex;
     justify-content: center;
 }
-.body-content a {
-    display: inline-block;
-    text-decoration: none;
-    color: goldenrod;
-    background-color: black;
-    padding: 14px;
-    border-radius: 16px;
-    margin: 24px 0px;
-    transition: 
-        background-color 0.5s
-    ;
+#gallery-h1 {
+    text-align: center;
 }
-.body-content a:hover {
-    background-color: #0000009a;
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 24px;
+    margin-bottom: 100px;
+    border-top-left-radius: 20px;
+    border-top: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
+    border-bottom-right-radius: 20px;
+    padding: 40px 24px;
 }
-#body-cont-2 a {
-    background-color: transparent;
-    border: 2px solid goldenrod;
-    transition: 
-        background-color 0.5s
-    ;
-}
-#body-cont-2 a:hover {
-    background-color: #0000009e;
+#gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+    border: 5px outset goldenrod;
+    box-shadow: 4px 4px 12px #0009;
 }
 #footer {
     background-color: black;
     text-align: center;
     color: white;
-    padding: 24px;
+    padding: 4px;
 }
 #foot-links {
     display: flex;
@@ -141,6 +197,7 @@ span {
     color: white;
     text-decoration: none;
     padding: 0px 40px;
+    display: inline-block;
     transition:
         color 0.5s,
         text-decoration 0.5s
@@ -150,11 +207,7 @@ span {
     color: goldenrod;
     text-decoration: underline;
 }
-#single-col h1 {
-    text-align: center;
-    margin: 100px 0px;
-}
-#menu-sbs {
+.menu-sbs {
     display: flex;
     align-items: center;
     padding: 24px;
@@ -162,25 +215,59 @@ span {
     color: white;
     border-bottom: 3px dotted goldenrod;
 }
-#menu-sbs:last-child {
+.menu-sbs:last-child {
     border-bottom: none;
+}
+#single-col #menu-h1 {
+    margin: 40px;
+}
+#menu-h1 {
+    text-align: center;
+    color: goldenrod;
+}
+#menu-links {
+    display: flex;
+    justify-content: space-around;
+}
+#menu-links a {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border: 2px solid goldenrod;
+    border-radius: 16px;
+    padding: 16px;
+    text-decoration: none;
+    box-shadow: 4px 4px 7px #0006;
+    transition: 
+        background-color 0.5s
+    ;
+}
+#menu-links a:hover {
+    background-color: #0000009a; 
+}
+#menu-links #menu-link-1 {
+    background-color: goldenrod;
+    color: black;
 }
 #menu-content {
     padding: 0px 12px;
     border: 5px outset goldenrod;
-    margin: 100px 0px;
+    margin: 50px 0px;
     width: 100%;
     background-color: black;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.615);
+    box-shadow: 0px 0px 12px #0000009d;
 }
 #menu-content h2 {
     text-align: center;
     margin: 60px 0px;
     color: white;
 }
+.menu-body-content h3 {
+    font-size: 26px;
+}
 .menu-body-content {
-    flex: 2;
-    margin: 0px 75px;
+    flex: 3;
+    margin: 0px 50px;
 }
 .menu-img {
     flex: 1;
@@ -188,35 +275,71 @@ span {
 .menu-img img {
     width: 100%;
 }
-.pricing {
+.prices {
     flex: 1;
+    color: goldenrod;
+    text-align: right;
+    border-left: 2px solid goldenrod;
+    padding: 40px 0px;
 }
 
-@media screen and (max-width: 750px) and (min-width: 400px) {
+@media screen and (max-width: 750px) and (min-width: 350px) {
     #navbar {
         flex-direction: column;
+        position: initial;
+    }
+    #navbar #logo {
+        margin: 0px;
     }
     #navbar a {
         margin: 24px;
     }
-    #menu-sbs {
+    #nav-links-1 {
+        margin: 0px;
+        text-align: center;
+    }
+    .side-by-side {
+        flex-direction: column;
+        margin-top: 24px;
+    }
+    #image-container-1 {
+        width: 95%;
+        margin-top: 24px;
+    }
+    #image-container-2 {
+        width: 95%;
+        margin: 60px;
+    }
+    #location-content-2 {
+        flex-direction: column;
+    }
+    #location-content h3 {
+        border-right: none;
+        border-bottom: 1px solid goldenrod;
+    }
+    #location-content img {
+        width: 85%;
+    }
+    #gallery img {
+        width: 80%;
+    }
+    #foot-links {
+        flex-direction: column;
+    }
+    #foot-links a {
+        margin: 12px;
+    }
+    .menu-sbs {
         flex-direction: column;
         text-align: center;
     }
+    #menu-links {
+        flex-wrap: wrap;
+    }
+    #menu-links a {
+        margin: 12px;
+    }
+    .prices {
+        border: none;
+    }
 }
-
-/* #hero {
-    background: 
-        url(../images/fine-dining.jpg),
-        linear-gradient(rgb(255, 255, 255), black)
-    ;
-    background-position: center;
-    background-size: cover;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#hero h1 {
-    color: white;
-} */
