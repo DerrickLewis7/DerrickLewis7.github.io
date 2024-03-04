@@ -32,7 +32,8 @@ span {
     font-weight: bolder;
 }
 #navbar {
-    background-color: #000000d5;
+    background-color: #000000e3;
+    backdrop-filter: blur(5px);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -67,6 +68,9 @@ span {
     border-radius: 16px;
     margin-right: 24px;
 }
+#dark-bg {
+    background-color: rgb(40, 40, 40);
+}
 #single-col {
     width: 75%;
     margin: 0px auto;
@@ -84,6 +88,9 @@ span {
     border-bottom: 2px solid goldenrod;
     border-bottom-right-radius: 20px;
     padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .side-by-side {
     display: flex;
@@ -95,6 +102,7 @@ span {
 }
 .body-content {
     margin: 0px 40px;
+    max-width: 375px;
 }
 .body-content a {
     display: inline-block;
@@ -113,6 +121,9 @@ span {
 .body-content a:hover {
     background-color: #daa5207d;
 }
+#body-cont-1 h1 {
+    margin-bottom: 36px;
+}
 #body-cont-2 {
     text-align: start;
 }
@@ -128,11 +139,15 @@ span {
     background-color: #0000009e;
 }
 #image-container-1 {
-    width: 80%;
+    width: 100%;
+    max-width: 600px;
+    min-width: 200px;
     margin: 0px 40px;
 }
 #image-container-2 {
-    width: 80%;
+    width: 100%;
+    max-width: 600px;
+    min-width: 200px;
     margin: 0px 40px;
 }
 #location-content {
@@ -141,6 +156,7 @@ span {
 }
 #location-content img {
     width: 85%;
+    max-width: 900px;
     margin: 24px;
     background-color: goldenrod;
     padding: 12px;
@@ -243,7 +259,7 @@ span {
     ;
 }
 #menu-links a:hover {
-    background-color: #0000009a; 
+    background-color: rgba(245, 245, 245, 0.219); 
 }
 #menu-links #menu-link-1 {
     background-color: goldenrod;
@@ -255,7 +271,7 @@ span {
     margin: 50px 0px;
     width: 100%;
     background-color: black;
-    box-shadow: 0px 0px 12px #0000009d;
+    box-shadow: 0px 0px 12px #0003;
 }
 #menu-content h2 {
     text-align: center;
