@@ -32,7 +32,7 @@ span {
     font-weight: bolder;
 }
 #navbar {
-    background-color: #000000e3;
+    background-color: #000000c9;
     backdrop-filter: blur(5px);
     display: flex;
     align-items: center;
@@ -196,7 +196,7 @@ span {
     flex: 1;
     object-fit: cover;
     border: 5px outset goldenrod;
-    box-shadow: 4px 4px 12px #0009;
+    box-shadow: 4px 4px 12px #0003;
 }
 #footer {
     background-color: black;
@@ -253,7 +253,7 @@ span {
     border-radius: 16px;
     padding: 16px;
     text-decoration: none;
-    box-shadow: 4px 4px 7px #0006;
+    box-shadow: 4px 4px 7px #0004;
     transition: 
         background-color 0.5s
     ;
@@ -282,24 +282,30 @@ span {
     font-size: 26px;
 }
 .menu-body-content {
-    flex: 3;
-    margin: 0px 50px;
+    flex: 2;
+    margin: 0px 175px;
+    max-width: 600px;
+    min-width: 30%;
 }
 .menu-img {
     flex: 1;
 }
 .menu-img img {
     width: 100%;
+    max-width: 300px;
+    min-width: 150px;
+    height: 200px;
+    object-fit: cover;
 }
 .prices {
     flex: 1;
     color: goldenrod;
-    text-align: right;
+    text-align: center;
     border-left: 2px solid goldenrod;
     padding: 40px 0px;
 }
 
-@media screen and (max-width: 750px) and (min-width: 350px) {
+@media screen and (max-width: 1150px) and (min-width: 350px) {
     #navbar {
         flex-direction: column;
         position: initial;
