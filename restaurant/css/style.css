@@ -32,7 +32,7 @@ span {
     font-weight: bolder;
 }
 #navbar {
-    background-color: #000000c9;
+    background-color: rgba(0, 0, 0, 0.877);
     backdrop-filter: blur(5px);
     display: flex;
     align-items: center;
