@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    color: azure;
+}
+
+h3 {
+    margin: 0px;
+}
+h1 {
+    margin: 0px;
+}
+
+#login-box {
+    position: relative;
+    z-index: 4;
+}
+#idk2 {
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.614);
+    padding: 0px 45px 80px 45px;
+    margin: 140px;
+}
+#idk {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(9px);
+    z-index: 3;
+
+}
+#check-box {
+    border: 2px outset antiquewhite;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+
+}
+#icons-cont { 
+    width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    color: antiquewhite;
+}
+#icons { 
+    width: 100%;
+    height: 100%;
+}
+#check {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+#back {
+    background-image: url(../images/eso-load.jpeg);
+    z-index: 6;
+    padding: 2px;
+}
+#title {
+    margin: 0px 24px;
+    text-align: center;
+    font-family: cursive;
+    padding: 20px 0px;
+    color:antiquewhite;
+}
+
+#use {
+    margin-bottom: 8px;
+}
+
+#pass {
+    margin-bottom: 8px;
+    margin-top: 50px;
+}
+#copy {
+    margin: 40px 0px;
+    color:antiquewhite;
+    margin-bottom: 42px;
+
+}
+
+#username-box {
+    width: 100%;
+    height: 30px;
+    background-color:rgba(255, 222, 173, 0.478);
+}
+
+#password-box {
+    width: 100%;
+    height: 30px;
+    background-color:rgba(255, 222, 173, 0.478);
+}
+
+#login {
+    text-align: center;
+    color:rgb(255, 222, 173);
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 62px;
+}
+
+#ann {
+    color: antiquewhite;
+    border-bottom: 2px solid antiquewhite;
+    padding-bottom: 2px;
+}
+
+#ann-copy {
+    color: antiquewhite;
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+}
